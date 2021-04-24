@@ -20,7 +20,13 @@ const createCharDiv = (char) => {
   return charContainer
 }
 
+const appendJob = (charDiv) => {
+  const charContainer = document.getElementById('character-container')
+  charContainer.append(charDiv)
+}
+
 fetchChar().then((char) => {
   const charDiv = createCharDiv(char)
-  console.log(charDiv)
+  appendJob(charDiv)
 })
+
