@@ -10,8 +10,9 @@
 </head>
 <body>
   <div id="character-container"></div>
-  <select id="dropdown">
-    <option value="">--Select Job--</option>
+  <select id="class-dropdown" onchange="if(selectedIndex!=0)document.getElementById('level-display').innerHTML=options[selectedIndex].value;">
+    <option value="">--Select Job To Display Level--</option>
   </select>
+  <div id="level-display"></div>
 </body>
 </html>
