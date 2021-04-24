@@ -6,3 +6,16 @@ img {
   width: 50%;
   height: 50%;
 }
+
+#character-container {
+  padding-bottom: 10px;
+}
+
+#level-display {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+select {
+  font-size: 15px;
+}
