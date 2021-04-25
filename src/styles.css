@@ -1,6 +1,8 @@
 body {
   background-image: url("ffxivcharselbg.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   text-align: center;
   color: white;
   padding: 115px;
